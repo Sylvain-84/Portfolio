@@ -3,6 +3,7 @@ import {
   backend,
   creator,
   web,
+  php,
   javascript,
   typescript,
   html,
@@ -13,8 +14,10 @@ import {
   nodejs,
   mongodb,
   git,
+  github2,
   figma,
   docker,
+  symfony,
   meta,
   starbucks,
   tesla,
@@ -63,6 +66,11 @@ const services = [
   },
 ];
 
+// TO ADD :
+// Symfony
+// Prestashop
+// SQL
+// API PLATFORM
 const technologies = [
   {
     name: "HTML 5",
@@ -77,45 +85,57 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "PHP",
+    icon: php,
+  },
+  // {
+  //   name: "TypeScript",
+  //   icon: typescript,
+  // },
+  {
+    name: "Symfony",
+    icon: symfony,
   },
   {
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
+  // {
+  //   name: "Redux Toolkit",
+  //   icon: redux,
+  // },
   {
     name: "Tailwind CSS",
     icon: tailwind,
   },
+  // {
+  //   name: "Node JS",
+  //   icon: nodejs,
+  // },
+  // {
+  //   name: "MongoDB",
+  //   icon: mongodb,
+  // },
+  // {
+  //   name: "Three JS",
+  //   icon: threejs,
+  // },
   {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
+    name: "github",
+    icon: github2,
   },
   {
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  // {
+  //   name: "figma",
+  //   icon: figma,
+  // },
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
 ];
 
 const experiences = [
