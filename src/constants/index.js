@@ -28,11 +28,15 @@ import {
 export const navLinks = [
   {
     id: "about",
-    title: "About",
+    title: "À propos",
   },
   {
     id: "work",
-    title: "Work",
+    title: "Carrière",
+  },
+  {
+    id: "project",
+    title: "Project",
   },
   {
     id: "contact",
@@ -116,55 +120,43 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Développeur junior",
+    company_name: "Batteries Prod",
+    dipslayIcon: "",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Juin 2020 - Juil 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Développement de modules Prestashop 1.6 & 1.7",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    title: "Développeur Fullstack - Symfony",
+    company_name: "Batteries Prod",
+    dipslayIcon: "none",
+    icon: "tesla",
+    iconBg: "",
+    date: "Juil 2021 - Nov 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Développement d'une application interne (ERP)",
+      "Collaboration avec le service QSE pour le développement d'applicatif concernant la norme ISO-9001",
+      "Développement et intégration de site e-commerce",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
+    title: "Développeur & Manageur",
+    company_name: "Batteries Prod",
+    dipslayIcon: "none",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Nov 2022 - Présent",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Responsable de la gestion de projets",
+      "Responsable de l'équipe de développement",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
 ];
