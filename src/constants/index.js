@@ -17,6 +17,7 @@ import {
   github2,
   figma,
   docker,
+  prestashop,
   symfony,
   meta,
   starbucks,
@@ -67,8 +68,6 @@ const services = [
 ];
 
 // TO ADD :
-// Symfony
-// Prestashop
 // SQL
 // API PLATFORM
 const technologies = [
@@ -136,6 +135,10 @@ const technologies = [
   //   name: "docker",
   //   icon: docker,
   // },
+  {
+    name: "prestashop",
+    icon: prestashop,
+  },
 ];
 
 const experiences = [

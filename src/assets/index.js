@@ -14,6 +14,7 @@ import git from "./tech/git.png";
 import github2 from "./tech/github.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
+import prestashop from "./tech/prestashop.png";
 import php from "./tech/php.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
@@ -49,6 +50,7 @@ export {
   github2,
   html,
   javascript,
+  prestashop,
   php,
   mongodb,
   nodejs,
