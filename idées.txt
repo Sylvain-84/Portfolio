@@ -1,0 +1,2 @@
+- Ajouté un lien "CV" sans le menu pour ouvrir / télécharger le cv en pdf
+- Pour chaque projet, au click, l'ouvir comme une popup pour afficher un apperçu our le rediriger vers une page projet
