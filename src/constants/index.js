@@ -167,7 +167,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "",
+      "Sylvain ce donne à 100% dans tout ce qu'il fait. On peut toujours compter sur lui pour livrer un travail de qualité.",
     name: "Mikael Zezza",
     designation: "CEO",
     company: "Batteries Prod",
@@ -175,7 +175,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "",
+      "Sylvain allie professionnalisme et attitude décontractée, ce qui rend le travail non seulement efficace mais aussi agréable",
     name: "Gabin Vengeon",
     designation: "Head of sales",
     company: "Loewi",
@@ -183,7 +183,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "",
+      "Sylvain a cette capacité à voir les choses sous un angle différent, ce qui rend notre duo vraiment efficace",
     name: "Éva Goncalvez",
     designation: "Web design & Marketing",
     company: "Batteries Prod",
