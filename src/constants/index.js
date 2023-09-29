@@ -167,7 +167,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Sylvain proved me wrong.",
+      "",
     name: "Mikael Zezza",
     designation: "CEO",
     company: "Batteries Prod",
@@ -175,7 +175,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Sylvain does.",
+      "",
     name: "Gabin Vengeon",
     designation: "Head of sales",
     company: "Loewi",
@@ -183,7 +183,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Sylvain optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "",
     name: "Éva Goncalvez",
     designation: "Web design & Marketing",
     company: "Batteries Prod",
