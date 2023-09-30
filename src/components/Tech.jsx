@@ -12,7 +12,7 @@ const Tech = () => {
   return (
     <div className="flex flex-row flex-wrap justify-center gap-10">
       {technologies.map((technology) => {
-        if (isMobile && project.displayMobile == false) {
+        if (isMobile && technology.displayMobile == false) {
           return null;
         }
         <div className="w-28 h-28" key={technology.name}>
