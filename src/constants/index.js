@@ -89,22 +89,27 @@ const technologies = [
   {
     name: "Symfony",
     icon: symfony,
+    displayMobile: true,
   },
   {
     name: "ReactJS",
     icon: reactjs,
+    displayMobile: true,
   },
   {
     name: "SQL",
     icon: sql,
+    displayMobile: true,
   },
   {
     name: "Api Platform",
     icon: api_platform,
+    displayMobile: true,
   },
   {
     name: "prestashop",
     icon: prestashop,
+    displayMobile: true,
   },
   {
     name: "Tailwind CSS",
@@ -114,16 +119,17 @@ const technologies = [
   {
     name: "github",
     icon: github2,
+    displayMobile: false,
   },
   {
     name: "git",
     icon: git,
-    displayMobile: false,
+    displayMobile: true,
   },
   {
     name: "vscode",
     icon: vscode,
-    displayMobile: false,
+    displayMobile: true,
   },
 ];
 
