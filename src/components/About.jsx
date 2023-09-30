@@ -37,6 +37,9 @@ const ServiceCard = ({ index, title, icon }) => (
 );
 
 const About = () => {
+  const windowSize = useWindowSize();
+  const isMobile = windowSize.width <= 768;
+  
   return (
     <>
       <motion.div variants={textVariant()}>
@@ -60,7 +63,7 @@ const About = () => {
             if (isMobile && service.displayMobile == false) {
               return null;
             }
-            
+
           <ServiceCard key={service.title} index={index} {...service} />
         })}
       </div>
