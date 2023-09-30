@@ -17,7 +17,6 @@ import {
   github2,
   prestashop,
   symfony,
-  meta,
   powade,
   batteriesprod,
   sql,
@@ -138,7 +137,7 @@ const experiences = [
     title: "Développeur Fullstack - Symfony",
     company_name: "Batteries Prod",
     dipslayIcon: "none",
-    icon: "tesla",
+    icon: batteriesprod,
     iconBg: "",
     date: "Juil 2021 - Nov 2022",
     points: [
@@ -152,7 +151,7 @@ const experiences = [
     title: "Développeur & Manageur",
     company_name: "Batteries Prod",
     dipslayIcon: "none",
-    icon: meta,
+    icon: batteriesprod,
     iconBg: "#E6DEDD",
     date: "Nov 2022 - Présent",
     points: [
