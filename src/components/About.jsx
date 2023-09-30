@@ -5,7 +5,6 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
-import useWindowSize from "../utils/useWindowSize";
 import { fadeIn, textVariant } from "../utils/motion";
 
 const ServiceCard = ({ index, title, icon }) => (
@@ -37,9 +36,6 @@ const ServiceCard = ({ index, title, icon }) => (
 );
 
 const About = () => {
-  const windowSize = useWindowSize();
-  const isMobile = windowSize.width <= 768;
-  
   return (
     <>
       <motion.div variants={textVariant()}>
@@ -59,13 +55,9 @@ const About = () => {
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
-        {services.map((service, index) => {
-            if (isMobile && service.displayMobile == false) {
-              return null;
-            }
-
+        {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
-        })}
+        ))}
       </div>
     </>
   );
