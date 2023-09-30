@@ -50,7 +50,7 @@ const About = () => {
         Développeur passionné et expérimenté, je suis en quête d'une nouvelle
         aventure pour relever des défis stimulants au sein d'une équipe
         dynamique et innovante. <br />
-        Spécialisé en Symfony et React JS, mes atouts sont mon autonomie, ma
+        Spécialisé en Symfony et ReactJS, mes atouts sont mon autonomie, ma
         curiosité naturelle et mon adaptabilité.
       </motion.p>
 

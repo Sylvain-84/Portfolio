@@ -57,7 +57,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Frontend React JS",
+    title: "Frontend ReactJS",
     icon: mobile,
   },
   {
@@ -88,7 +88,7 @@ const technologies = [
     icon: symfony,
   },
   {
-    name: "React JS",
+    name: "ReactJS",
     icon: reactjs,
   },
   {
@@ -212,6 +212,7 @@ const projects = [
     ],
     image: carrent,
     source_code_link: "https://github.com/",
+    displayMobile: true,
   },
   {
     name: "Tableau de bord",
@@ -233,6 +234,7 @@ const projects = [
     ],
     image: jobit,
     source_code_link: "https://github.com/",
+    displayMobile: true,
   },
   {
     name: "Application interne (ERP)",
@@ -254,6 +256,7 @@ const projects = [
     ],
     image: app_interne,
     source_code_link: "https://github.com/",
+    displayMobile: true,
   },
   {
     name: "Espace client pro",
@@ -271,6 +274,7 @@ const projects = [
     ],
     image: espace_pro,
     source_code_link: "https://github.com/",
+    displayMobile: true,
   },
   {
     name: "Drive interne",
@@ -291,7 +295,7 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    displayMobile: false,
   },
   {
     name: "Powade",
@@ -305,6 +309,7 @@ const projects = [
     ],
     image: powade,
     source_code_link: "https://github.com/",
+    displayMobile: true,
   },
   {
     name: "Backpower",
@@ -318,6 +323,7 @@ const projects = [
     ],
     image: backpower,
     source_code_link: "https://github.com/",
+    displayMobile: true,
   },
   {
     name: "Vélobatterie",
@@ -331,6 +337,7 @@ const projects = [
     ],
     image: velobatterie,
     source_code_link: "https://github.com/",
+    displayMobile: false,
   },
 ];
 
