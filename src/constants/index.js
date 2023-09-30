@@ -69,18 +69,22 @@ const technologies = [
   {
     name: "HTML 5",
     icon: html,
+    displayMobile: false,
   },
   {
     name: "CSS 3",
     icon: css,
+    displayMobile: false,
   },
   {
     name: "JavaScript",
     icon: javascript,
+    displayMobile: false,
   },
   {
     name: "PHP",
     icon: php,
+    displayMobile: false,
   },
   {
     name: "Symfony",
@@ -105,6 +109,7 @@ const technologies = [
   {
     name: "Tailwind CSS",
     icon: tailwind,
+    displayMobile: false,
   },
   {
     name: "github",
@@ -113,10 +118,12 @@ const technologies = [
   {
     name: "git",
     icon: git,
+    displayMobile: false,
   },
   {
     name: "vscode",
     icon: vscode,
+    displayMobile: false,
   },
 ];
 
@@ -273,7 +280,7 @@ const projects = [
     ],
     image: espace_pro,
     source_code_link: "https://github.com/",
-    displayMobile: true,
+    displayMobile: false,
   },
   {
     name: "Drive interne",
