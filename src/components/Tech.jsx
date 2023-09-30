@@ -15,9 +15,11 @@ const Tech = () => {
         if (isMobile && technology.displayMobile == false) {
           return null;
         }
-        <div className="w-28 h-28" key={technology.name}>
-          <BallCanvas icon={technology.icon} />
-        </div>;
+        return (
+          <div className="w-28 h-28" key={technology.name}>
+            <BallCanvas icon={technology.icon} />
+          </div>
+        );
       })}
     </div>
   );
