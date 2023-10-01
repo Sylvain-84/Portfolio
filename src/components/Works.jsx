@@ -104,7 +104,6 @@ const Works = () => {
       </div>
 
       <div className="mt-20 flex flex-wrap gap-7">
-        {console.log(filteredProjects)}
         {filteredProjects.map((project, index) => (
           <ProjectCard
             key={`project-${index}`}
