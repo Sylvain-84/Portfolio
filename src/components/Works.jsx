@@ -1,4 +1,4 @@
-import React, { Suspense } from "react";
+import React, { useState, useEffect } from "react";
 import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
 
@@ -8,38 +8,43 @@ import { projects } from "../constants";
 import useWindowSize from "../utils/useWindowSize";
 import { fadeIn, textVariant } from "../utils/motion";
 
+// No need to pass 'shouldDelay' anymore as it can be calculated from the index and displayCount
 const ProjectCard = ({
   index,
   name,
   description,
   tags,
   image,
+  shouldDelay,
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <motion.div
+      variants={
+        shouldDelay ? fadeIn("up", "spring", index * 0.5, 0.75) : undefined
+      }
+    >
       <Tilt
         options={{
           max: 45,
           scale: 1,
           speed: 450,
         }}
-        className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
+        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
       >
-        <div className='relative w-full h-[230px]'>
+        <div className="relative w-full h-[230px]">
           <img
             src={image}
-            alt='project_image'
-            className='w-full h-full object-cover rounded-2xl'
+            alt="project_image"
+            className="w-full h-full object-cover rounded-2xl"
           />
-
         </div>
 
-        <div className='mt-5'>
-          <h3 className='text-white font-bold text-[24px]'>{name}</h3>
-          <p className='mt-2 text-secondary text-[14px]'>{description}</p>
+        <div className="mt-5">
+          <h3 className="text-white font-bold text-[24px]">{name}</h3>
+          <p className="mt-2 text-secondary text-[14px]">{description}</p>
         </div>
 
-        <div className='mt-4 flex flex-wrap gap-2'>
+        <div className="mt-4 flex flex-wrap gap-2">
           {tags.map((tag) => (
             <p
               key={`${name}-${tag.name}`}
@@ -52,11 +57,28 @@ const ProjectCard = ({
       </Tilt>
     </motion.div>
   );
-};
-
-const Works = () => {
+};const Works = () => {
   const windowSize = useWindowSize();
   const isMobile = windowSize.width <= 768;
+  const initialDisplayCount = isMobile ? 4 : projects.length;
+  const [displayCount, setDisplayCount] = useState(initialDisplayCount);
+  const [shouldDelay, setShouldDelay] = useState(
+    Array(initialDisplayCount).fill(true)
+  );
+
+  useEffect(() => {
+    const newDisplayCount = isMobile ? 4 : projects.length;
+    setDisplayCount(newDisplayCount);
+    setShouldDelay(Array(newDisplayCount).fill(true));
+  }, [isMobile]);
+
+  const handleLoadMore = () => {
+    const newDelayStatus = [...Array(6).fill(false)]; // No delay for new cards
+    setShouldDelay((prevDelay) => [...prevDelay, ...newDelayStatus]);
+    setDisplayCount((prevCount) => prevCount + 6);
+  };
+
+  const filteredProjects = projects.slice(0, displayCount);
 
   return (
     <>
@@ -78,21 +100,23 @@ const Works = () => {
       </div>
 
       <div className="mt-20 flex flex-wrap gap-7">
-        <Suspense fallback={<div>Loading...</div>}>
-          {projects.map((project, index) => {
-            if (isMobile && project.displayMobile == false) {
-              return null;
-            }
-            return (
-              <ProjectCard
-                key={`project-${index}`}
-                index={index}
-                {...project}
-              />
-            );
-          })}
-        </Suspense>
+        {console.log(filteredProjects)}
+        {filteredProjects.map((project, index) => (
+          <ProjectCard
+            key={`project-${index}`}
+            index={index}
+            {...project}
+            shouldDelay={shouldDelay[index]}
+          />
+        ))}
       </div>
+
+      {/* Show the "More" button if there are more projects to show */}
+      {displayCount < projects.length && (
+        <button className="mt-20 mb-20" onClick={handleLoadMore}>
+          More
+        </button>
+      )}
     </>
   );
 };

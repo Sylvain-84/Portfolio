@@ -109,7 +109,7 @@ const technologies = [
   {
     name: "prestashop",
     icon: prestashop,
-    displayMobile: true,
+    displayMobile: false,
   },
   {
     name: "Tailwind CSS",
@@ -223,8 +223,7 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
-    displayMobile: true,
+    project_link: "https://github.com/",
   },
   {
     name: "Tableau de bord",
@@ -245,8 +244,7 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
-    displayMobile: true,
+    project_link: "https://github.com/",
   },
   {
     name: "Application interne (ERP)",
@@ -267,8 +265,20 @@ const projects = [
       },
     ],
     image: app_interne,
-    source_code_link: "https://github.com/",
-    displayMobile: true,
+    project_link: "https://github.com/",
+  },
+  {
+    name: "Powade",
+    description:
+      "Un site e-commerce proposant des batteries au lithium pour véhicules électriques.",
+    tags: [
+      {
+        name: "prestashop",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: powade,
+    project_link: "https://github.com/",
   },
   {
     name: "Espace client pro",
@@ -285,8 +295,7 @@ const projects = [
       },
     ],
     image: espace_pro,
-    source_code_link: "https://github.com/",
-    displayMobile: false,
+    project_link: "https://github.com/",
   },
   {
     name: "Drive interne",
@@ -307,21 +316,6 @@ const projects = [
       },
     ],
     image: tripguide,
-    displayMobile: false,
-  },
-  {
-    name: "Powade",
-    description:
-      "Un site e-commerce proposant des batteries au lithium pour véhicules électriques.",
-    tags: [
-      {
-        name: "prestashop",
-        color: "orange-text-gradient",
-      },
-    ],
-    image: powade,
-    source_code_link: "https://github.com/",
-    displayMobile: true,
   },
   {
     name: "Backpower",
@@ -334,8 +328,7 @@ const projects = [
       },
     ],
     image: backpower,
-    source_code_link: "https://github.com/",
-    displayMobile: true,
+    project_link: "https://github.com/",
   },
   {
     name: "Vélobatterie",
@@ -348,8 +341,7 @@ const projects = [
       },
     ],
     image: velobatterie,
-    source_code_link: "https://github.com/",
-    displayMobile: false,
+    project_link: "https://github.com/",
   },
 ];
 
