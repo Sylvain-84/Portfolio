@@ -57,7 +57,8 @@ const ProjectCard = ({
       </Tilt>
     </motion.div>
   );
-};const Works = () => {
+};
+const Works = () => {
   const windowSize = useWindowSize();
   const isMobile = windowSize.width <= 768;
   const initialDisplayCount = isMobile ? 4 : projects.length;
@@ -82,7 +83,6 @@ const ProjectCard = ({
   const filteredProjects = projects
     .filter((project) => !isMobile || project.displayMobile)
     .slice(0, displayCount);
-
 
   return (
     <>
@@ -117,9 +117,17 @@ const ProjectCard = ({
 
       {/* Show the "More" button if there are more projects to show */}
       {displayCount < projects.length && (
-        <button className="mt-20 mb-20" onClick={handleLoadMore}>
-          More
-        </button>
+        <div className="w-full flex justify-center items-center flex-col	gap-7">
+          <button
+            onClick={handleLoadMore}
+            class="relative p-0.5 inline-flex items-center justify-center overflow-hidden group rounded-md m-10"
+          >
+            <span class="w-full h-full bg-gradient-to-br from-[#db2777] via-[#7e22ce] to-[#60a5fa] group-hover:from-[#60a5fa] group-hover:via-[#7e22ce] group-hover:to-[#db2777] absolute"></span>
+            <span class="relative px-6 py-3 transition-all ease-out bg-gray-900 rounded-md group-hover:bg-opacity-0 duration-400">
+              <span class="relative text-white">Afficher plus</span>
+            </span>
+          </button>
+        </div>
       )}
     </>
   );
