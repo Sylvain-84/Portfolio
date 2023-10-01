@@ -183,7 +183,6 @@ const testimonials = [
     name: "Mikael Zezza",
     designation: "CEO",
     company: "Batteries Prod",
-    // image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
@@ -191,7 +190,6 @@ const testimonials = [
     name: "Gabin Vengeon",
     designation: "Head of sales",
     company: "Loewi",
-    // image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
@@ -199,7 +197,6 @@ const testimonials = [
     name: "Éva Goncalvez",
     designation: "Web design & Marketing",
     company: "Batteries Prod",
-    // image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
