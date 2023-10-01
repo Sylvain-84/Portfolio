@@ -78,7 +78,11 @@ const ProjectCard = ({
     setDisplayCount((prevCount) => prevCount + 6);
   };
 
-  const filteredProjects = projects.slice(0, displayCount);
+  // const filteredProjects = projects.slice(0, displayCount);
+  const filteredProjects = projects
+    .filter((project) => !isMobile || project.displayMobile)
+    .slice(0, displayCount);
+
 
   return (
     <>

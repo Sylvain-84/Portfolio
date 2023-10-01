@@ -224,6 +224,7 @@ const projects = [
     ],
     image: carrent,
     project_link: "https://github.com/",
+    displayMobile: true,
   },
   {
     name: "Tableau de bord",
@@ -245,6 +246,7 @@ const projects = [
     ],
     image: jobit,
     project_link: "https://github.com/",
+    displayMobile: true,
   },
   {
     name: "Application interne (ERP)",
@@ -266,6 +268,7 @@ const projects = [
     ],
     image: app_interne,
     project_link: "https://github.com/",
+    displayMobile: true,
   },
   {
     name: "Powade",
@@ -279,6 +282,7 @@ const projects = [
     ],
     image: powade,
     project_link: "https://github.com/",
+    displayMobile: true,
   },
   {
     name: "Espace client pro",
@@ -296,6 +300,7 @@ const projects = [
     ],
     image: espace_pro,
     project_link: "https://github.com/",
+    displayMobile: true,
   },
   {
     name: "Drive interne",
@@ -316,6 +321,7 @@ const projects = [
       },
     ],
     image: tripguide,
+    displayMobile: true,
   },
   {
     name: "Backpower",
@@ -329,6 +335,7 @@ const projects = [
     ],
     image: backpower,
     project_link: "https://github.com/",
+    displayMobile: true,
   },
   {
     name: "Vélobatterie",
@@ -342,6 +349,7 @@ const projects = [
     ],
     image: velobatterie,
     project_link: "https://github.com/",
+    displayMobile: false,
   },
 ];
 
