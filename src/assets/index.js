@@ -23,12 +23,10 @@ import vscode from "./tech/vscode.png";
 
 import batteriesprod from "./company/batteriesprod.jpeg";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
-
 import app_interne from "./project/app_interne.png";
 import backpower from "./project/backpower.png";
+import dashboard from "./project/dashboard.png";
+import drive from "./project/drive.png";
 import espace_pro from "./project/espace_pro.png";
 import powade from "./project/powade.png";
 import velobatterie from "./project/velobatterie.png";
@@ -42,6 +40,8 @@ export {
   backpower,
   batteriesprod,
   creator,
+  dashboard,
+  drive,
   mobile,
   web,
   github,
@@ -59,9 +59,6 @@ export {
   tailwind,
   sql,
   symfony,
-  carrent,
-  jobit,
-  tripguide,
   velobatterie,
   vscode,
 };
