@@ -96,10 +96,12 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          Les projets suivants illustrent mes compétences et mon expérience
-          acquis tout au long de ma carrère. Ils témoignent de ma capacité à
-          résoudre des problèmes complexes, à travailler avec différentes
-          technologies, à gérer des projets de manière efficace et autonome.
+          Découvrez ci-dessous des projets qui ne sont pas seulement des lignes
+          de code, mais des solutions pensées pour résoudre des défis concrets.
+          Chacun d'entre eux est le reflet de mes compétences en{" "}
+          <span className="text-white">Symfony, ReactJS et Prestashop </span>
+          et témoigne de mon engagement à réaliser des{" "}
+          <span className="text-white">projets divers et exigeants</span>.
         </motion.p>
       </div>
 

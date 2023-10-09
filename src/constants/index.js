@@ -139,10 +139,11 @@ const experiences = [
     dipslayIcon: "",
     icon: batteriesprod,
     iconBg: "#383E56",
-    date: "Juin 2020 - Juil 2021",
+    date: "Juin 2020 - Juil. 2021",
     points: [
       "Développement de modules Prestashop 1.6 & 1.7",
-      "Reporitngs des donnés en SQL & PHP",
+      "Développement d'un espace pour les clients professionnels",
+      "Reportings des données en SQL & PHP",
     ],
   },
   {
@@ -151,12 +152,13 @@ const experiences = [
     dipslayIcon: "none",
     icon: batteriesprod,
     iconBg: "",
-    date: "Juil 2021 - Nov 2022",
+    date: "Juil. 2021 - Nov 2022",
     points: [
       "Développement d'une application interne (ERP)",
       "Développement d'une application Gestion de stock",
       "Conception d'applicatifs avec le service QSE pour la norme ISO-9001.",
       "Développement et intégration de site e-commerce",
+      "Maintenance des applications et outils informatiques.",
     ],
   },
   {
@@ -165,12 +167,13 @@ const experiences = [
     dipslayIcon: "none",
     icon: batteriesprod,
     iconBg: "#E6DEDD",
-    date: "Nov 2022 - Présent",
+    date: "Nov. 2022 - Présent",
     points: [
       "Responsable de la gestion de projets",
       "Responsable de l'équipe de développement",
       "Développement d'une application tableau de bord",
-      "Maintenance des applications et outils informatique.",
+      "Développement d'une application Drive",
+      "Maintenance des applications et outils informatiques.",
     ],
   },
 ];
@@ -215,7 +218,7 @@ const projects = [
   {
     name: "Gestion de stock",
     description:
-      "Une application gestion de stock pour gérer toute la partie logistique et commandes fournisseurs.",
+      "Une application de gestion de stock pour gérer toute la partie logistique et commandes fournisseurs.",
     tags: [
       {
         name: "symfony",
@@ -237,7 +240,7 @@ const projects = [
   {
     name: "Tableau de bord",
     description:
-      "Une application tableau de bord pour afficher les donnés et statistiques sur l'activité de l'entreprise.",
+      "Une application tableau de bord pour afficher les données et statistiques sur l'activité de l'entreprise.",
     tags: [
       {
         name: "symfony",
@@ -259,7 +262,7 @@ const projects = [
   {
     name: "Application interne (ERP)",
     description:
-      "Un ERP contenant tous les outils necessaires au fonctionnement de l'activité : administration, communication, logistique, production, QSE, RH et SAV",
+      "Un ERP contenant tous les outils nécessaires au fonctionnement de l'activité : administration, communication, logistique, production, QSE, RH et SAV",
     tags: [
       {
         name: "symfony",
@@ -348,7 +351,7 @@ const projects = [
   {
     name: "Vélobatterie",
     description:
-      "Une boutique en ligne proposant un service de reconditionnement de batteries pour les vélos éléctriques.",
+      "Une boutique en ligne proposant un service de reconditionnement de batteries pour les vélos électriques.",
     tags: [
       {
         name: "prestashop",

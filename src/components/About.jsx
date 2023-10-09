@@ -51,7 +51,7 @@ const About = () => {
         aventure pour relever des défis stimulants au sein d'une équipe
         dynamique et innovante. <br />
         Spécialisé en Symfony et ReactJS, mes atouts sont mon autonomie, ma
-        curiosité naturelle et mon adaptabilité.
+        curiosité naturelle, ma fiabilité et mon adaptabilité.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
