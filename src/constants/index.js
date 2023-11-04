@@ -37,7 +37,7 @@ export const navLinks = [
   },
   {
     id: "project",
-    title: "Project",
+    title: "Projets",
   },
   {
     id: "contact",
@@ -141,9 +141,10 @@ const experiences = [
     iconBg: "#383E56",
     date: "Juin 2020 - Juil. 2021",
     points: [
-      "Développement de modules Prestashop 1.6 & 1.7",
+      "Développement d'une application interne (ERP)",
       "Développement d'un espace pour les clients professionnels",
       "Reportings des données en SQL & PHP",
+      "Développement de modules Prestashop 1.6 & 1.7",
     ],
   },
   {
@@ -154,8 +155,9 @@ const experiences = [
     iconBg: "",
     date: "Juil. 2021 - Nov 2022",
     points: [
-      "Développement d'une application interne (ERP)",
+      "Développement de nouvelles fonctionnalités sur l'application interne",
       "Développement d'une application Gestion de stock",
+      "Développement d'une application Drive",
       "Conception d'applicatifs avec le service QSE pour la norme ISO-9001.",
       "Développement et intégration de site e-commerce",
       "Maintenance des applications et outils informatiques.",
@@ -172,7 +174,7 @@ const experiences = [
       "Responsable de la gestion de projets",
       "Responsable de l'équipe de développement",
       "Développement d'une application tableau de bord",
-      "Développement d'une application Drive",
+      "Développement d'une application de gestion de production",
       "Maintenance des applications et outils informatiques.",
     ],
   },
